@@ -20,7 +20,7 @@
   "trailing"      : true,
   "maxparams"     : 4,
   "maxdepth"      : 2,
-  "maxstatements" : 15,
+  "maxstatements" : 20,
   "maxcomplexity" : 10,
   "maxlen"        : 100,
 
@@ -62,5 +62,8 @@
   "rhino"         : false,
   "worker"        : false,
   "wsh"           : false,
-  "yui"           : false
+  "yui"           : false,
+  "globals": {
+    "console": true
+  }
 }
