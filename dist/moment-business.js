@@ -1,5 +1,5 @@
 (function (global, factory) {
-  typeof exports === "object" && typeof module !== "undefined" ? module.exports = factory(require("contained-periodic-values")) : typeof define === "function" && define.amd ? define(["contained-periodic-values"], factory) : global.none = factory(global.containedPeriodicValues);
+  typeof exports === "object" && typeof module !== "undefined" ? module.exports = factory(require("contained-periodic-values")) : typeof define === "function" && define.amd ? define(["contained-periodic-values"], factory) : global.momentBusiness = factory(global.containedPeriodicValues);
 })(this, function (containedPeriodicValues) {
   "use strict";
 

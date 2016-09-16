@@ -1,6 +1,6 @@
 {
   "name": "moment-business",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Methods to work with week days and weekends in moment.",
   "main": "dist/moment-business.js",
   "scripts": {
@@ -67,7 +67,7 @@
   },
   "to5BoilerplateOptions": {
     "entryFileName": "moment-business",
-    "exportVarName": "none",
+    "exportVarName": "momentBusiness",
     "mochaGlobals": [
       "stub",
       "spy",
