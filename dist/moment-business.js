@@ -9,7 +9,7 @@
   }
 
   var moment_business = {
-    weekDays: function weekDays(startMoment, endMoment) {
+    weekDays: function weekDays(startMoment, endMoment, floating = false) {
       var start = undefined,
           end = undefined;
       var reverse = endMoment.isBefore(startMoment);
@@ -22,7 +22,7 @@
       }
 
       var startDay = start.day();
-      var totalDays = Math.abs(end.diff(start, "days"));
+      var totalDays = Math.abs(end.diff(start, "days", floating));
       var containedSundays = containedPeriodicValues(startDay, totalDays + startDay, 0, 7);
       var containedSaturdays = containedPeriodicValues(startDay, totalDays + startDay, 6, 7);
       var coefficient = reverse ? -1 : 1;
