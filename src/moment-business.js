@@ -6,7 +6,7 @@ function determineSign(x) {
 }
 
 export default {
-  weekDays(startMoment, endMoment) {
+  weekDays(startMoment, endMoment, floating = false) {
     let start, end;
     let reverse = endMoment.isBefore(startMoment);
     if (reverse) {
@@ -18,7 +18,7 @@ export default {
     }
 
     const startDay = start.day();
-    const totalDays = Math.abs(end.diff(start, 'days'));
+    const totalDays = Math.abs(end.diff(start, 'days', floating));
     const containedSundays = containedPeriodicValues(startDay, totalDays + startDay, 0, 7);
     const containedSaturdays = containedPeriodicValues(startDay, totalDays + startDay, 6, 7);
     const coefficient = reverse ? -1 : 1;
