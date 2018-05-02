@@ -1,9 +1,9 @@
 {
   "name": "moment-business",
   "version": "3.0.1",
-  "homepage": "https://github.com/jmeas/moment-business",
+  "homepage": "https://github.com/jamesplease/moment-business",
   "authors": [
-    "Jmeas <jellyes2@gmail.com>"
+    "James Please <jamesplease2@gmail.com>"
   ],
   "description": "Methods to work with week days and weekends in moment.",
   "main": "dist/moment-business.js",

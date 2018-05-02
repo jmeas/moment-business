@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmeas/moment-business.git"
+    "url": "https://github.com/jamesplease/moment-business.git"
   },
   "keywords": [
     "moment",
@@ -22,17 +22,18 @@
     "weekend",
     "weekends"
   ],
-  "author": "Jmeas",
+  "author": "James Please",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jmeas/moment-business/issues"
+    "url": "https://github.com/jamesplease/moment-business/issues"
   },
-  "homepage": "https://github.com/jmeas/moment-business",
+  "homepage": "https://github.com/jamesplease/moment-business",
   "devDependencies": {
     "6to5": "^3.3.3",
     "6to5ify": "^4.1.1",
     "browserify": "^8.1.1",
     "chai": "^1.10.0",
+    "coveralls": "^3.0.1",
     "del": "^1.1.1",
     "esperanto": "^0.6.7",
     "glob": "^4.3.5",

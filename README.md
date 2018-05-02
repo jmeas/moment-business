@@ -1,13 +1,13 @@
 # moment-business
 [![Travis build status](http://img.shields.io/travis/jamesplease/moment-business.svg?style=flat)](https://travis-ci.org/jamesplease/moment-business)
-[![Test Coverage](https://codeclimate.com/github/jmeas/moment-business/badges/coverage.svg)](https://codeclimate.com/github/jmeas/moment-business)
+[![Test Coverage](https://coveralls.io/repos/github/jamesplease/moment-business/badge.svg?branch=master)](https://coveralls.io/github/jamesplease/moment-business?branch=master)
 [![Dependency Status](https://david-dm.org/jamesplease/moment-business.svg)](https://david-dm.org/jamesplease/moment-business)
 
 Utilities for working with week days and weekend days in Moment. It assumes a Western
 workweek, in which weekends are Saturday and Sunday.
 
 *Looking for a vanilla JS version of this library? Check out
-[bizniz.js](https://github.com/jmeas/bizniz.js)*
+[bizniz.js](https://github.com/jamesplease/bizniz.js)*
 
 ### Motivation
 
